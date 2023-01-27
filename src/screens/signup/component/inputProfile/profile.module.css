@@ -1,0 +1,64 @@
+.container_input_cloudinary {
+    display: flex;
+    width: 20.4rem;
+    height: 20rem;
+   
+  }
+  
+  .formbold_file_input {
+    border-radius: 0.5rem;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #333;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .formbold_file_input input {
+    opacity: 0;
+    
+  }
+  
+  .formbold_file_input label {
+    position: relative;
+    border: 1px dashed #e0e0e0;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+    margin-top: -2rem;
+  }
+  
+  .formbold_drop_file {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
+  
+  .formbold_or {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #6b7280;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .formbold_browse {
+    font-weight: 400;
+    font-size: 1.4rem;
+    display: inline-block;
+    padding: 0.8rem 2.8rem;
+    border-radius: 0.5rem;
+    background-color: #B5D5C5;
+    color: #333;
+  }
+  
+  .image_cover_form img {
+    border-radius: 0.4rem;
+  }
+  

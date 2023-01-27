@@ -1,0 +1,34 @@
+.container_header {
+  background-color: #f2f2f2;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.header_sections ul{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.user_header_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: right;
+}
+
+.user_header_info span{
+    font-size: 1.2rem;
+}
+
+.user_header_info img{
+    height: 4rem;
+    border-radius: 50%;
+    
+}

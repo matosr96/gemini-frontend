@@ -1,0 +1,65 @@
+.open_modal {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999999999;
+}
+
+.close_modal {
+  display: none;
+}
+
+.container_form_book {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.header_form_book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.header_form_book button {
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.form_book {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form_book button {
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.container_input {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.container_input span {
+  font-size: 1.3rem;
+}
+
+.container_input input {
+  font-size: 1.6rem;
+}
+
+.container_input select{
+    border: none;
+}

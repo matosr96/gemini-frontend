@@ -1,0 +1,60 @@
+.contaiener_welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container_form_welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 4rem;
+  width: 50rem;
+  border-radius: 0.4rem;
+}
+
+.header_form_welcome {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.body_form_welcome {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.body_form_welcome button {
+  background-color: #86a3b8;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  color: #f2f2f2;
+}
+
+.container_picture_welcome {
+  margin-bottom: 2rem;
+}
+
+.container_picture_welcome img {
+  height: 20rem;
+  border-radius: 10rem;
+}
+
+.institutions_list_welcome {
+  margin-top: 2rem;
+}
+
+.container_list_institutions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.btn_list {
+  background-color: #b5d5c5 !important;
+  color: #000 !important;
+}

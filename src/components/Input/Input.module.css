@@ -1,0 +1,32 @@
+.input{
+    position: relative;
+    display: inline-block;
+    height: 3.2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.input i{
+    height: 100%;
+    font-size: 2rem;
+    color: #333;
+    background-color: rgba(0, 0, 0, .05);
+    padding-top: .4rem;
+    width: 3.5rem;
+    text-align: center;
+}
+
+.input_element{
+    height: 100%;
+    width: 100%;
+    padding: 0 .7rem;
+}
+
+.input_none{
+    border: none;
+}
